@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCleanerHelper", "SqlCleanerHelper\SqlCleanerHelper.csproj", "{6D533401-7A6F-4832-894D-C136D629090B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D533401-7A6F-4832-894D-C136D629090B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D533401-7A6F-4832-894D-C136D629090B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D533401-7A6F-4832-894D-C136D629090B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D533401-7A6F-4832-894D-C136D629090B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD459B80-E554-4AF9-9336-1C5AA089802F}
+	EndGlobalSection
+EndGlobal
