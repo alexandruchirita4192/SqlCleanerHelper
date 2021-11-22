@@ -17,3 +17,6 @@ SqlCleanerHelper/bin/Debug/SqlCleanerHelper.exe
 SqlCleanerHelper/.vs/SqlCleanerHelper/v16/.suo
 SqlCleanerHelper/SqlCleanerHelper/.vs/
 SqlCleanerHelper/SqlCleanerHelper/obj/
+bin/
+obj/
+.vs/
