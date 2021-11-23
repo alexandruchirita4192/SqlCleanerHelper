@@ -64,7 +64,8 @@ namespace SqlCleanerHelper
                 "substring", "charindex", "reverse", "quotename", "fetch_status", "first", "fetch", "dynamic", "log",
                 "getdate", "datediff", "minute", "second", "hour", "returns", "row_number", "bit"
             };
-
+            
+            // Change all keywords in list to upper case
             sql = Regex.Replace(sql, "\\w+", (Match m) =>
             {
                 return keywordsList.Contains(m.Value.ToLower()) ? m.Value.ToUpper() : m.Value;
