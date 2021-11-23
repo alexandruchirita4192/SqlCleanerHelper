@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SqlCleanerHelper
@@ -52,7 +46,7 @@ namespace SqlCleanerHelper
 
         private string CleanSql(string sql)
         {
-            var keywordsList = new List<string> { 
+            var keywordsList = new List<string> {
                 "add", "alter", "all", "and", "any", "as", "asc", "select", "by", "bulk", "commit", "tran", "rollback",
                 "between", "backup", "constraint", "column", "case", "check", "create", "count", "drop", "rowcount",
                 "exec", "exists", "table", "database", "delete", "desc", "distinct", "index", "procedure", "revert",
@@ -71,8 +65,6 @@ namespace SqlCleanerHelper
                 "getdate", "datediff", "minute", "second", "hour", "returns", "row_number", "bit"
             };
 
-
-
             sql = Regex.Replace(sql, "\\w+", (Match m) =>
             {
                 return keywordsList.Contains(m.Value.ToLower()) ? m.Value.ToUpper() : m.Value;
@@ -80,6 +72,5 @@ namespace SqlCleanerHelper
 
             return sql;
         }
-
     }
 }
