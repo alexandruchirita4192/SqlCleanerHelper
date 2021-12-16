@@ -54,7 +54,7 @@ namespace SqlCleanerHelper
                 "left", "right", "full", "inner", "outer", "having", "in", "insert", "into", "is", "null", "not", "like",
                 "limit", "or", "order", "apply", "rownum", "top", "set", "update", "truncate", "union", "values",
                 "declare", "fillfactor", "raiserror", "reconfigure", "freetext", "return", "goto", "break", "function",
-                "case", "identity", "identity_insert", "close", "if", "while", "clustered", "coalesce", "isnull",
+                "max", "identity", "identity_insert", "close", "if", "while", "clustered", "coalesce", "isnull",
                 "collate", "object_id", "continue", "convert", "cast", "kill", "nonclustered", "cursor", "transaction",
                 "nullif", "open", "pivot", "unpivot", "disk", "openquery", "trigger", "double", "option", "dump", "except",
                 "execute", "with", "print", "proc", "exit", "percent", "over", "waitfor", "varying", "deallocate", "go",
@@ -62,7 +62,8 @@ namespace SqlCleanerHelper
                 "begin", "end", "else", "on", "sum", "avg", "when", "then", "dense_rank", "binary", "error_number",
                 "error_severity", "error_state", "error_procedure", "error_line", "error_message", "try", "catch",
                 "substring", "charindex", "reverse", "quotename", "fetch_status", "first", "fetch", "dynamic", "log",
-                "getdate", "datediff", "minute", "second", "hour", "returns", "row_number", "bit"
+                "getdate", "datediff", "minute", "second", "hour", "returns", "row_number", "bit", "rtrim", "ltrim",
+                "output", "inserted", "deleted"
             };
             
             // Change all keywords in list to upper case
