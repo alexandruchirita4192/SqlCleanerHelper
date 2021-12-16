@@ -63,7 +63,7 @@ namespace SqlCleanerHelper
                 "error_severity", "error_state", "error_procedure", "error_line", "error_message", "try", "catch",
                 "substring", "charindex", "reverse", "quotename", "fetch_status", "first", "fetch", "dynamic", "log",
                 "getdate", "datediff", "minute", "second", "hour", "returns", "row_number", "bit", "rtrim", "ltrim",
-                "output", "inserted", "deleted"
+                "output", "inserted", "deleted", "uniqueidentifier"
             };
             
             // Change all keywords in list to upper case
